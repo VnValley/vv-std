@@ -1,0 +1,24 @@
+{
+  "name": "vv-std",
+  "version": "1.0.0",
+  "description": "Standard Library for VnValley Node.JS Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VnValley/vv-std.git"
+  },
+  "author": "quynhnx <arsenal.nxq@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VnValley/vv-std/issues"
+  },
+  "readme": "visit https://github.com/VnValley/vv-std/blob/master/README.md",
+  "homepage": "https://github.com/VnValley/vv-std#readme",
+  "dependencies": {
+    "bluebird": "^3.1.1",
+    "lodash": "^3.10.1"
+  }
+}
