@@ -1,0 +1,19 @@
+{
+  "sequelize": {
+    "default": "connection1",
+    "drivers": {
+      "connection1": {
+        "dialect": "mysql",
+
+      },
+      "connection2": {
+        "dialect": "mysql",
+
+      },
+      "connectionn": {
+        "dialect": "postgres",
+
+      }
+    }
+  }
+}
