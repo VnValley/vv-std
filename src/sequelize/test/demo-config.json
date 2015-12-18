@@ -4,15 +4,27 @@
     "drivers": {
       "connection1": {
         "dialect": "mysql",
-
+        "host": "localhost",
+        "port": "8888",
+        "database": "db1",
+        "username": "root",
+        "password": "root"
       },
       "connection2": {
         "dialect": "mysql",
-
+        "host": "localhost",
+        "port": "8888",
+        "database": "db1",
+        "username": "root",
+        "password": "root"
       },
       "connectionn": {
         "dialect": "postgres",
-
+        "host": "localhost",
+        "port": "8888",
+        "database": "db1",
+        "username": "root",
+        "password": "root"
       }
     }
   }

@@ -7,19 +7,17 @@ module.exports = function (config) {
 
     utils.Lodash.forEach(sequelizeConfig.drivers, function (driverConfig, driverAlias) {
 
-        // TODO
-        var connection = new Sequelize();
-        // extra config etc..
+        var connection = new Sequelize(
+            driverConfig.database,
+            driverConfig.username,
+            driverConfig.password,
+            driverConfig
+        );
 
         manager.extend(driverAlias, connection);
     });
 
     manager.setDefaultDriver(sequelizeConfig.default);
-
-
-
-
-    // TODO make new sequelize instance here!
 
     return manager;
 
