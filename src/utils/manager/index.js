@@ -44,7 +44,7 @@ Manager.prototype.setDefaultDriver = function (defaultDriverAlias) {
 Manager.prototype.driver = function (alias) {
     alias = alias || this.default;
 
-    if (this.has('alias')) return this.drivers[alias];
+    if (this.has(alias)) return this.drivers[alias];
 
     throw new Error('Driver [' + alias + '] is not supported');
 
