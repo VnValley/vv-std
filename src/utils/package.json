@@ -1,6 +1,6 @@
 {
   "name": "vv-std",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Standard Library for VnValley Node.JS Application",
   "main": "index.js",
   "scripts": {
