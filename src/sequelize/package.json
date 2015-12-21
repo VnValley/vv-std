@@ -1,10 +1,10 @@
 {
   "name": "vv-std-sequelize",
-  "version": "1.0.5",
+  "version": "1.0.11",
   "description": "Standard Library for VnValley Node.JS Application",
   "main": "index.js",
   "scripts": {
-    "test": "node node_modules/.bin/mocha"
+    "test": "return 0"
   },
   "repository": {
     "type": "git",

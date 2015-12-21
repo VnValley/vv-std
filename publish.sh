@@ -15,16 +15,16 @@ do :
    echo "Done."
 done
 
-echo "Bumping all packages version"
-
-for i in "${packages[@]}"
-do :
-   echo "Switch to ${currDir}/src/${i}"
-   cd "${currDir}/src/${i}"
-   echo "Running [npm version ${version}]"
-   npm version ${version}
-   echo "Done."
-done
+#echo "Bumping all packages version"
+#
+#for i in "${packages[@]}"
+#do :
+#   echo "Switch to ${currDir}/src/${i}"
+#   cd "${currDir}/src/${i}"
+#   echo "Running [npm version ${version}]"
+#   npm version ${version}
+#   echo "Done."
+#done
 
 cd currDir
 
