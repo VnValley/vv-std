@@ -1,9 +1,8 @@
 {
   "mongodb": {
-    "default": "mongodb",
-      "mongoConnect": {
-        "host": "localhost",
-        "database": "test"
-      }
+    "default": "connection1",
+    "drivers": {
+      "connection1": "mongodb://localhost/test"
+    }
   }
 }

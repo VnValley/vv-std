@@ -5,9 +5,10 @@ module.exports = function (config) {
     var manager = new utils.Manager();
     var mongoConfig = config.mongodb;
 
-    var connection = mongoose.connect('mongodb://' + mongoConfig.mongoConnect.host + '/' + mongoConfig.mongoConnect.database);
-
-    manager.extend('mongodb', connection);
+    utils.Lodash.forEach(mongoConfig.drivers, function (connectionString, driverAlias) {
+        var connection = mongoose.connect(connectionString);
+        manager.extend(driverAlias, connection);
+    });
 
     manager.setDefaultDriver(mongoConfig.default);
 
