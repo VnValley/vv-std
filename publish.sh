@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-packages=("utils")
+packages=("utils", "sequelize", "mongoosejs")
 currDir=$(pwd)
 version=$@
 
