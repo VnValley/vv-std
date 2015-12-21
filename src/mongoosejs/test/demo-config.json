@@ -1,0 +1,9 @@
+{
+  "mongodb": {
+    "default": "mongodb",
+      "mongoConnect": {
+        "host": "localhost",
+        "database": "test"
+      }
+  }
+}
