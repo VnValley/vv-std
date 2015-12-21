@@ -1,7 +1,7 @@
-var utils       = require('vv-std-utils');
+var utils    = require('vv-std-utils');
 var mongoose = require('mongoose');
 
-module.exports = function (config) {
+module.exports  = function (config) {
     var manager = new utils.Manager();
     var mongoConfig = config.mongodb;
 
