@@ -1,25 +1,29 @@
 {
-  "name": "vv-std-utils",
-  "version": "1.0.12",
-  "description": "Standard Library for VnValley Node.JS Application",
+  "name": "vv-std",
+  "version": "1.1.0",
+  "description": "Standard Library for VnValley Node.JS Applicatio",
   "main": "index.js",
   "scripts": {
     "test": "node node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VnValley/vv-std.git/src/utils"
+    "url": "git+https://github.com/VnValley/vv-std.git"
   },
-  "author": "quynhnx <arsenal.nxq@gmail.com>",
+  "keywords": [
+    "vnvalley"
+  ],
+  "author": "VnValley Co <dev@vnvalley.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/VnValley/vv-std/issues"
   },
-  "readme": "visit https://github.com/VnValley/vv-std/blob/master/README.md",
   "homepage": "https://github.com/VnValley/vv-std#readme",
   "dependencies": {
     "bluebird": "^3.1.1",
-    "lodash": "^3.10.1"
+    "lodash": "^3.10.1",
+    "mongoose": "^4.3.3",
+    "sequelize": "^3.15.0"
   },
   "devDependencies": {
     "chai": "^3.4.1",
