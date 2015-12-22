@@ -1,3 +1,3 @@
-exports.Promise = require('bluebird');
-exports.Lodash  = require('lodash');
-exports.Manager = require('./manager');
+module.exports.Promise = require('bluebird');
+module.exports.Lodash  = require('lodash');
+module.exports.Manager = require('./manager');
