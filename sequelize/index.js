@@ -1,4 +1,4 @@
-var utils       = require('vv-std-utils');
+var utils       = require('./../utils');
 var Sequelize   = require('sequelize');
 
 module.exports = function (config) {
